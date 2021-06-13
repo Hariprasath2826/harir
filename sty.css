@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    color:black;
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+.logo{
+    width: 25px;
+    
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 35px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-top: 3%;
+    justify-content: space-between;
+}
+.col-1{
+    flex-basis: 40%;
+    min-width: 300px;
+    
+}
+.col-2{
+    flex-basis: 55%;
+    min-width: 300px;
+    margin-bottom: 30px;
+}
+.col-1 img{
+    width: 400px;
+    height: 250px;
+}
+.col-2 h2{
+    text-decoration: none;
+    color: rgb(228, 116, 76);
+    font-weight: 300;
+    font-style: normal;  
+}
+.col-2 p{
+    text-decoration:none;
+    color: #a6a6a6;
+}
+.col-3 button{
+     border: 1px solid rgb(228, 116, 76);
+     padding:30px 29px;
+     border-radius: 30px;
+     margin-top: -40px;
+     margin-left: 395%;
+     background-color:rgb(228, 116, 76) ;
+}
+.col-3 h2{
+    margin-top: -45px;
+    margin-left: 420%;
+}
+.col-4 h4{
+    margin-right:650px;
+    text-decoration:none ;
+    color: rgb(228, 116, 76);
+    font-family: 'poppins', sans-serif;
+    font-size: 19px;
+}
+.col-6{
+    margin-left: 430px;
+    margin-top:-134px ;
+}
+.col-7{
+    margin-left: 855px;
+    margin-top:-148px ;
+}
+.col-5 h3{
+    text-decoration:none ;
+    color: black;
+    font-family: 'poppins', sans-serif;
+}
+.col-6 h3{
+    text-decoration:none ;
+    color: black;
+    font-family: 'poppins', sans-serif;
+}
+.col-7 h3{
+    text-decoration:none ;
+    color: black;
+    font-family: 'poppins', sans-serif;
+}
+.col-5 p{
+    text-decoration:none ;
+    color:#a6a6a6;
+}
+.col-7 p{
+    text-decoration:none ;
+    color:#a6a6a6;
+}
+.col-6 p{
+    text-decoration:none ;
+    color:#a6a6a6;
+}
